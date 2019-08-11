@@ -1,0 +1,16 @@
+@import '../module/stooges-variables';
+@import '../module/stooges-mixin';
+@import './project-variables.scss';
+
+%line{
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    height: 2px;
+    width: 64px;
+    background-color: $color-main;
+    transform: translateX(-50%);
+}
+
+
